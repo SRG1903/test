@@ -1,0 +1,8 @@
+print("Please enter your name")
+x=input()
+print("please enter your age")
+y=int(input())
+import datetime
+z=datetime.datetime.now()
+y=(z.year)-y+100
+print (x+ " will be 100 years old in year "  +str(y))
